@@ -584,6 +584,45 @@ footer{
 
             }
         }
+        .testimonial{
+            padding: 45px 30px;
+            flex-direction: column;            
+            .testimonial-img{
+                width: 100%;
+                .card-testimonial{
+                    width: 100%;
+                }
+            }
+            .testimonial-text{
+                margin-left: 0px;
+                flex: 1;
+                justify-content: center;
+                align-items: center;
+                .content{
+                    width: 100%;
+                    height: 100%;
+                    align-items: center;
+                    padding-right: 0px;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    h2{
+                        font-size: 1.7em;
+                        text-align: center;
+                    }
+                    h3{
+
+                    }
+
+                }
+                .profile{
+                    justify-content: center;
+                }
+                .pagination{
+                    text-align: center;
+                }
+            }
+        }
     }
 }
 
