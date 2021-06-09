@@ -25,7 +25,7 @@ header nav {
   padding: 20px 0;
   position: fixed;
   width: 100%;
-  background-color: royalblue;
+  z-index: 11;
 }
 
 header nav .logo {
@@ -88,6 +88,85 @@ header nav .menu-toogle span {
   border-radius: 3px;
 }
 
+.container {
+  width: 100%;
+}
+
+.container .content {
+  width: 100%;
+}
+
+.container .content .img-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .content .img-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .content .img-container .title {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+}
+
+.container .content .img-container .title h2 {
+  line-height: 1,2em;
+  color: #fff;
+  font-size: 4em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.container .content .img-container .title p {
+  font-size: 1.1em;
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.container .content .img-container .title a {
+  margin-top: 20px;
+  padding: 15px 40px;
+  background-color: #4660e2;
+  border-color: #4660e2;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 1.7em;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
 @media screen and (max-width: 768px) {
   header nav ul {
     display: none;
@@ -96,6 +175,14 @@ header nav .menu-toogle span {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .container .content .img-container .title h2 {
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+  }
+  .container .content .img-container .title p {
+    font-size: 1em;
   }
 }
 /*# sourceMappingURL=main.css.map */
