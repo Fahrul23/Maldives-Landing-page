@@ -132,7 +132,7 @@ header{
             h2{
                 font-size: 2.2em;
                 font-weight: 700;
-                color: #001689;
+                color: rgb(39, 39, 44);
             }
             p{
                 line-height: 1.7em;
@@ -258,8 +258,7 @@ header{
                             border-radius: 10px;
                             font-weight: 500;
                             border: 0;
-                            background-color: #7c0e7d;
-                            color: #fff;
+                            background-color: #ff7424;                            color: #fff;
                             box-sizing: border-box;
                             font-weight: 600;
                             
@@ -294,6 +293,7 @@ header{
         }
     }
     .testimonial{
+        margin-top: 30px;
         display: flex;
         padding: 20px 100px;
         .testimonial-img{
@@ -316,8 +316,72 @@ header{
             }
         }
         .testimonial-text{
-            border: 1px solid black;
             flex: 2;
+            margin-left: 50px;
+            padding: 30px 30px;
+            .content{
+                padding-right: 80px;
+                h3{
+                    font-size: 1.5rem;
+                    color: #001689;
+                    font-weight: 500;
+                    letter-spacing: 4px;
+                    text-transform: uppercase;
+                }
+                h2{
+                    font-size: 3em;
+                    margin-top: 10px;
+                    color: rgb(39, 39, 44);
+                }
+                p{
+                    margin-top: 20px;
+                    color: #8c8d91;
+                }
+            }
+            .profile{
+                display: flex;
+                align-items: center;
+                margin-top: 20px;
+                .img-profile{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 50%;
+                    }
+                }
+                .title{
+                    margin-left: 10px;
+
+                    p:nth-child(1){
+                        color: rgb(39, 39, 44);
+                        font-size: 1em;
+                        font-weight: 600;
+                    }
+                    p:nth-child(2){
+                        color: #8c8d91;
+                    }
+                }
+            }
+            .pagination{
+                margin-top: 20px;
+
+                button{
+                    cursor: pointer;
+                    margin-top: 10px;
+                    margin-right: 15px;
+                    border: none;
+                    border-radius: 5px;
+                    padding: 6px 10px;
+                    background-color: #ff7424;
+                    i{
+                        color: #fff;
+                    }
+                }
+            }
         }
     }
 
