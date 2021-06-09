@@ -781,4 +781,19 @@ footer a {
     text-align: center;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .container .travel-stories {
+    padding: 45px 30px;
+  }
+  .container .travel-stories .stories {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .travel-stories .stories article {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=main.css.map */
