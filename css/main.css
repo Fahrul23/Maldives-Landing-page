@@ -675,5 +675,42 @@ footer a {
   .container .content .img-container .title p {
     font-size: 1em;
   }
+  .container .about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .about .about-text {
+    width: 100%;
+    padding: 45px 30px;
+  }
+  .container .about .about-text h2 {
+    font-size: 1.7em;
+    text-align: center;
+  }
+  .container .about .about-text p {
+    font-size: 0.9em;
+    text-align: center;
+  }
+  .container .about .about-text a {
+    padding: 10px 40px;
+  }
+  .container .about .about-text .more {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .about .about-img {
+    padding: 45px 30px;
+    width: 100%;
+  }
+  .container .about .about-img .card-img {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

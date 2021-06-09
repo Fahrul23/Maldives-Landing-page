@@ -536,6 +536,36 @@ footer{
                 }
             }
         }
+        .about{
+            flex-direction: column;
+            .about-text{
+                width: 100%;
+                padding: 45px 30px;
+                h2{
+                    font-size: 1.7em;
+                    text-align: center;
+                }
+                p{
+                    font-size: 0.9em;
+                    text-align: center;
+                }
+                a{
+                    padding: 10px 40px;
+                }
+                .more{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            .about-img{
+                padding: 45px 30px;
+                width: 100%;
+                .card-img{
+                    width: 100%;
+                }
+            }
+        }
     }
 }
 
