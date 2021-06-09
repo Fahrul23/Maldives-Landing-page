@@ -338,8 +338,6 @@ header nav .menu-toogle span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -710,6 +708,21 @@ footer a {
     width: 100%;
   }
   .container .about .about-img .card-img {
+    width: 100%;
+  }
+  .container .hotel-wrapper .hotels {
+    padding: 45px 30px;
+  }
+  .container .hotel-wrapper .hotels .header-title .title h3 {
+    font-size: 1.2em;
+  }
+  .container .hotel-wrapper .hotels .list-hotel {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .hotel-wrapper .hotels .list-hotel .card {
     width: 100%;
   }
 }

@@ -257,7 +257,6 @@ header{
                 width: 100%;
                 margin-top: 20px;
                 display: flex;
-                flex-wrap: nowrap;
                 justify-content: space-between;
                 
                 .card{
@@ -564,6 +563,25 @@ footer{
                 .card-img{
                     width: 100%;
                 }
+            }
+        }
+        .hotel-wrapper{
+            .hotels{
+                padding: 45px 30px;
+                .header-title{
+                    .title{
+                        h3{
+                            font-size: 1.2em;
+                        }
+                    }
+                }
+                .list-hotel{
+                    flex-direction: column;
+                    .card{
+                        width: 100%;
+                    }
+                }
+
             }
         }
     }
